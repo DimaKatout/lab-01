@@ -1,0 +1,64 @@
+/* should contain small changes on top of all other normal styling
+Applying temporary changes, such as a holiday theme*/
+/*
+  =====================================
+  THEME STYLES - GLOBAL
+  =====================================
+*/
+
+div,
+header,
+footer,
+aside {
+  background: #eee;
+  border: 1px solid black;
+}
+
+
+/*
+  =====================================
+  DESKTOP ONLY
+  =====================================
+*/
+
+@media screen and (max-width: 960px) {
+
+  footer {
+    border-top: none;
+  }
+
+  aside {
+    border-top: none;
+  }
+
+  .one, .two {
+    border-top: none;
+  }
+
+  .two:nth-of-type(even) {
+    border-left: none;
+  }
+}
+
+/*
+ =====================================
+ Mobile Only
+ =====================================
+*/
+@media screen and (min-width: 960px) {
+
+
+  div {
+    border-top: none;
+    border-left: none;
+  }
+
+  footer {
+    border-top: none;
+    border-left: none;
+  }
+
+  aside {
+    border-top: none;
+  }
+}

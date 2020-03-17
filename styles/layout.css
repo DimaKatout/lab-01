@@ -1,0 +1,92 @@
+/*  should contain general positioning on the page
+Apply to elements such as header, footer, nav, aside
+Classes and IDs can be included here*/
+
+main {
+    margin: auto;
+  }
+  
+  section {
+    overflow: hidden;
+  }
+  
+  div,
+  header,
+  footer,
+  aside {
+    float: left;
+    width: 100%;
+  }
+  
+  
+  /*
+    =====================================
+    PHONE ONLY
+    =====================================
+  */
+  
+  @media screen and (max-width: 960px) {
+  
+    main {
+      width: 480px;
+    }
+  
+    header {
+      height: 75px;
+    }
+  
+    aside {
+      height: 150px;
+    }
+  
+    footer {
+      height: 80px;
+    }
+  
+    .one {
+      height: 125px;
+    }
+  
+    .two {
+      height: 250px;
+      width: 240px;
+    }
+  }
+  
+  /*
+   =====================================
+   DESKTOP ONLY
+   =====================================
+  */
+  
+  @media screen and (min-width: 960px) {
+  
+    main {
+      width: 960px;
+    }
+  
+    .one {
+      height: 200px;
+      width: 380px;
+    }
+  
+    .two {
+      height: 250px;
+      width: 190px;
+    }
+  
+    header {
+      height: 100px;
+    }
+  
+    footer {
+      height: 150px;
+      width: 760px;
+    }
+  
+    aside {
+      height: 600px;
+      width: 200px;
+    }
+  }
+  
